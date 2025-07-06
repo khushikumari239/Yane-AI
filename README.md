@@ -42,6 +42,8 @@ Send a JSON object with the image URL:
   "url": "https://samples.clarifai.com/metro-north.jpg"
 }
 
+![alt text](image-1.png)
+
 🌼<b> Response </b>
 
 {
