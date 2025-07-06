@@ -12,7 +12,7 @@ It exposes a simple REST API where clients can send an image URL and receive a l
 - Easy to extend for other Clarifai models or input types.
 - Handles errors gracefully and validates API responses.
 
-<b>Installation</b>
+🌼<b>Installation</b>
 - Clone the Repo
 - install dependencies 
 npm install express clarifai-nodejs-grpc dotenv
@@ -21,7 +21,7 @@ npm install express clarifai-nodejs-grpc dotenv
 
 CLARIFAI_API_KEY=your_personal_access_token_here
 
-<b>Running the Server</b>
+🌼<b>Running the Server</b>
 - Start the server with:
 node index.js
 
@@ -30,19 +30,19 @@ Server running on http://localhost:3000
 ![alt text](image.png)
 
 
-<b> API Usage </b>
+🌼<b> API Usage </b>
 - Endpoint
 POST /analyze
 Content-Type: application/json
 
-<b> Request Body </b>
+🌼<b> Request Body </b>
 Send a JSON object with the image URL:
 
 {
   "url": "https://samples.clarifai.com/metro-north.jpg"
 }
 
-<b> Response </b>
+🌼<b> Response </b>
 
 {
   "tags": [
@@ -77,6 +77,9 @@ Send a JSON object with the image URL:
 
 
 🌼Dependencies : -
-express - Web framework for Node.js. (https://www.npmjs.com/package/express)
-clarifai-nodejs-grpc - Clarifai’s gRPC client. (https://www.npmjs.com/package/clarifai-nodejs-grpc)
-dotenv - Loads environment variables from .env. (https://www.npmjs.com/package/dotenv)
+
+- express - Web framework for Node.js. (https://www.npmjs.com/package/express)
+
+- clarifai-nodejs-grpc - Clarifai’s gRPC client. (https://www.npmjs.com/package/clarifai-nodejs-grpc)
+
+- dotenv - Loads environment variables from .env. (https://www.npmjs.com/package/dotenv)
